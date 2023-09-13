@@ -1,0 +1,23 @@
+.book {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 232, 232);
+    padding: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+
+    &__category {
+        text-decoration: underline;
+        opacity: 0.5;
+    }
+
+    &__name {
+        font-weight: 700;
+    }
+
+
+    &__author {
+        opacity: 0.5;
+    }
+}

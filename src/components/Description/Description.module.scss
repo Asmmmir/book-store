@@ -1,0 +1,38 @@
+.description {
+    margin: 0 auto;
+
+    &__container {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &__image {
+        width: 40%;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    &__category {
+        opacity: 0.5;
+    }
+
+    &__authors {
+        text-decoration: underline;
+        opacity: 0.5;
+    }
+
+    &__subtitle {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+}

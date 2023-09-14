@@ -1,7 +1,7 @@
 import Main from "./components/Main/Main";
 import Search from "./components/Search/Search";
 import Book from "./components/Books/Book";
-import "./app.css";
+import "./App.css";
 import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
 import Description from "./components/Description/Description";
 
